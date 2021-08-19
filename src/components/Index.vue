@@ -1,18 +1,16 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
+  <div class="index">
     <Footer></Footer>
   </div>
 </template>
 
-<script>
-export default {
-  name: 'Index',
-  data() {
-    return {
-      msg: 'Welcome'
-    }
-  }
+<style>
+.index {
+  background: url("../assets/imgs/index-bg.png");
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size: 100% 100%
 }
-</script>
+</style>
 

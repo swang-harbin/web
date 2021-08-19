@@ -10,6 +10,7 @@
 footer {
   width: 100%;
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
+  text-align: center;
 }
 </style>
